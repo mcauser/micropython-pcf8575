@@ -47,7 +47,7 @@ class PCF8575:
         pin = self.validate_pin(pin)
         if value is None:
             self._read()
-            return (self._port[pin // 8] >> pin) & 1
+            return (self._port[pin // 8] >> (pin % 8)) & 1
         else:
             if value:
                 self._port[pin // 8] |= (1 << (pin % 8))
