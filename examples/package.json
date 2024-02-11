@@ -1,0 +1,10 @@
+{
+  "urls": [
+    ["pcf8575/examples/basic.py", "github:mcauser/micropython-pcf8575/examples/basic.py"],
+    ["pcf8575/examples/interrupts.py", "github:mcauser/micropython-pcf8575/examples/interrupts.py"],
+    ["pcf8575/examples/leds_sinking.py", "github:mcauser/micropython-pcf8575/examples/leds_sinking.py"],
+    ["pcf8575/examples/leds_sourcing.py", "github:mcauser/micropython-pcf8575/examples/leds_sourcing.py"]
+  ],
+  "deps": [],
+  "version": "1.1.0"
+}
